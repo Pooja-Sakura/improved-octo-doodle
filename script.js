@@ -62,12 +62,19 @@ function dragDrop() {
 
     var count_value=forloop(); 
     // console.log(count_value); 
-    if(count_value==153){ move(10);}
-    if(count_value==122){ move(30);}
-    if(count_value==91){ move(50);}
-    if(count_value==60){ move(60);}
-    if(count_value==29){ move(80);}
-    if(count_value==0){ move(100);}
+    // if(count_value==153){ move(10);}
+    // if(count_value==122){ move(30);}
+    // if(count_value==91){ move(50);}
+    // if(count_value==60){ move(60);}
+    // if(count_value==29){ move(80);}
+    // if(count_value==0){ move(100);}
+
+    if(count_value==154){ move(10);}
+    if(count_value==124){ move(30);}
+    if(count_value==94){ move(50);}
+    if(count_value==64){ move(60);}
+    if(count_value==34){ move(80);}
+    if(count_value==4){ move(100);}
 
 
    
@@ -91,22 +98,22 @@ function dragDrop() {
 function forloop(){
     // for(i=0;i<19;i++){
         
-            for(i=0;i<=30;i++){
+            // for(i=0;i<=30;i++){
             if(counter>0){
             lung.style.backgroundImage = "url('good lungs "+(counter)+".jpeg')";
            //document.getElementById("countervalue").innerHTML  = counter;
-            //counter=counter-30;
-            counter=counter-1;
+           counter=counter-30;
+          // counter=counter-1;
             
              
-         }
+        // }
 
        // }
     }
    barvalue=barvalue+20;
     // move(barvalue);
     // console.log(barvalue); 
-    // console.log(counter); 
+     console.log(counter); 
     return counter;
 }
 
